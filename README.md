@@ -43,14 +43,14 @@ img = cv2.imread('eagle.jpg', cv2.IMREAD_COLOR)
 ```PYTHON
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 ```
-### # Display the image using Matplotlib
+###  Display the image using Matplotlib
 ```PYTHON
 plt.imshow(img_rgb, cmap='viridis')  # You can change 'viridis' to another cmap or use None for RGB images
 plt.title("Original Image")
 plt.axis('off')  # Removes axis ticks and labels
 plt.show()
 ```
-### # Load the image
+### Load the image
 ```PYTHON
 image = cv2.imread('eagle.jpg')
 ```
