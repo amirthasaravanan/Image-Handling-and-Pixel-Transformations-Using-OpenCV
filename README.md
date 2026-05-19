@@ -34,7 +34,7 @@ Split the image (boy.jpg) into B, G, R components and display the channels
 - **Name:** AMIRTHA VARSHINI M 
 - **Register Number:** 212224230017
 
-  ### Ex. No. 01
+### Ex. No. 01
 ### Read the image using OpenCV
 ```PYTHON
 img = cv2.imread('eagle.jpg', cv2.IMREAD_COLOR)
